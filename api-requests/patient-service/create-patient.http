@@ -1,0 +1,11 @@
+### post a patient
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+    "name":"Jhon bro",
+    "email":"",
+    "address":"wowthis is my address",
+    "dateOfBirth":"2004-03-21",
+    "registeredDate":"2022-09-11"
+}
